@@ -42,5 +42,23 @@ main {
     font-weight: bold;
     font-size: 12px;
     padding: 8px;
-    
+}
+
+#header {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-items {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
