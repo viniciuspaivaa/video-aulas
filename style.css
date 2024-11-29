@@ -10,3 +10,9 @@
     align-items: center;
     gap: 20px;
 }
+
+.navbar-items {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
