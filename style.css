@@ -7,3 +7,7 @@ main {
     justify-content: center;
     padding: 20px 0px 20px 0px;
 }
+.card {
+    width: 180px;
+    padding: 10px !important;
+}
