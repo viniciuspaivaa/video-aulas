@@ -5,3 +5,8 @@
     background-color: black;
 }
 
+#navbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
