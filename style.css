@@ -70,3 +70,8 @@ main {
     height: 160px;
     background-color: rgb(65, 65, 65);
 }
+
+.bi {
+    color: white;
+    font-size: 18px;
+}
