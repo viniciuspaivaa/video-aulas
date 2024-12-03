@@ -12,6 +12,25 @@ main {
     width: 100vw;
 }
 
+#header {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(65, 65, 65);
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-items {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
 #container {
     display: flex;
     justify-content: center;
@@ -22,7 +41,7 @@ main {
 .cards {
     display: flex;
     flex-direction: column;
-    max-width: 180px;
+    max-width: 200px;
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
@@ -48,24 +67,7 @@ main {
     padding: 8px;
 }
 
-#header {
-    height: 80px;
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(65, 65, 65);
-}
 
-#navbar {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.navbar-items {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
 
 #footer {
     position: absolute;
@@ -113,4 +115,10 @@ main {
 .bi {
     font-size: 18px;
     margin-left: 10px;
+}
+
+@media (max-width: 439px) {
+    #footer {
+        position: relative;
+    }
 }
