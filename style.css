@@ -77,6 +77,14 @@ main {
     background-color: rgb(65, 65, 65);
 }
 
+#footer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
 #icons {
     font-weight: bold;
     color: white;
